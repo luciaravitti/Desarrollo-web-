@@ -1,0 +1,60 @@
+   
+header{ background-color: $verde;
+    text-align: center;
+    .logo{
+        width: 200px;
+        border-radius: 200%;
+        border:$morado 7px solid;
+        padding: 10px;
+        &:hover{border:white}
+    }
+    .titulo{text-align: center;
+        color: $morado;
+        size: 1000px;
+        font-family:$letra;
+        font-weight:bold;
+    }
+        
+    .subtitulo {text-align: center;
+        color: $morado;
+        font-family:$letra;
+    padding: 1rem;
+    font-weight:800;
+    animation-duration: 10s;
+     animation-name: vayviene;
+     animation-iteration-count: infinite;}
+    
+     @keyframes vayviene {
+        0%{opacity: 1;}
+        50%{background-color: $morado;
+        color: $verde;
+    font-size: 2rem;}
+        100%{opacity: 1;}
+        
+     }
+    .menu{
+        padding: 1rem;
+        list-style-type: none;
+        margin: 10px;
+    background-color: $morado ;
+    text-decoration: none;
+color: $verde;
+
+li {display:inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color:$morado ;
+    padding: 20px;
+    font-size: 35px;
+    
+ }
+li a{ text-decoration: none;
+    color:$verde}
+     a:hover{ background-color:$verde;
+    color:$morado ;
+    border-radius: 10px;
+}
+
+
+      
+} }
